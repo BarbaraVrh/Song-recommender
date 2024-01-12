@@ -412,23 +412,5 @@ def main():
                 y.append(song)
                 rating=int(input('Rate this song from 1-5:'))
                 rate+=rating
-        print('The accuracy of our program for this sample of songs is:',(rate/25)*100,'%')
-        
-            
-        
-
-        
-
- 
-        
-    
-            
-    
-        
-        
-
-        
-    
-    
-    
+        print('The accuracy of our program for this sample of songs is:',(rate/25)*100,'%')    
 main()
